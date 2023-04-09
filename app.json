@@ -2,7 +2,7 @@
   "expo": {
     "name": "AttendanceManagement",
     "slug": "AttendanceManagement",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pagepro.testpublishapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0599f1b-cffa-4f66-9c3f-3e783fd89a05"
+      }
     }
   }
 }
